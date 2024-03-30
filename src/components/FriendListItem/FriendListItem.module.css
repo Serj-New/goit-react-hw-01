@@ -1,0 +1,25 @@
+.friendCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.friendName {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.friendStatus {
+    margin: 0;
+    font-size: 20px;
+}
+
+.isOnline {
+    color: green;
+}
+
+.isOffline {
+    color: red;
+}
